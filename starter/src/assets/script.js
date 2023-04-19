@@ -14,6 +14,7 @@ const products = [  {
   quantity: 0,
   productId: 8974,
   image: "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80"
+  //cherry.jpg by Mae Mu
 },  
 {    
   name: "orange",
@@ -21,6 +22,7 @@ const products = [  {
   quantity: 0,
   productId: 4443,
   image: "https://images.unsplash.com/photo-1557800636-894a64c1696f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80"
+  //orange photo from unsplash.com by Mae Mu
 },
 {
   name: "cherry",
@@ -28,6 +30,7 @@ const products = [  {
   quantity: 0,
   productId: 7365,
   image: "https://images.unsplash.com/photo-1559181567-c3190ca9959b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+  //cherry photo from unsplash.com by Allec Gomes
 },
 {
   name: "banana",
@@ -35,6 +38,7 @@ const products = [  {
   quantity: 0,
   productId: 7477,
   image: "https://images.unsplash.com/photo-1531326240216-7b04ad593229?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=690&q=80"
+  //banana photo from unsplash.com by Tim Foster
 },
 {
   name: "tulip bunch",
@@ -42,6 +46,7 @@ const products = [  {
   quantity: 0,
   productId: 3561,
   image: "https://images.unsplash.com/photo-1610444028404-09d616461e8e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80"
+  //tulip photo from unsplash.com by Larisa Birta
 },
 {
   name: "shopping bag",
@@ -49,12 +54,8 @@ const products = [  {
   quantity: 0,
   productId: 1111,
   image: "https://images.unsplash.com/photo-1544816155-12df9643f363?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+  //shopping bag photo from unsplash.com by Kelly Sikkema
 }];
-  /* Images provided in /images folder. All images from Unsplash.com
-     - cherry.jpg by Mae Mu
-     - orange.jpg by Mae Mu
-     - strawberry.jpg by Allec Gomes
-  */
   
   /* Declare an empty array named cart to hold the items in the cart */
   let cart = []
