@@ -135,6 +135,8 @@ document.querySelector('.pay').addEventListener('click', (e) => {
     }
 
     paymentSummary.append(div);
+    drawCart();
+    drawCheckout();
 });
 
 /* Standout suggestions */

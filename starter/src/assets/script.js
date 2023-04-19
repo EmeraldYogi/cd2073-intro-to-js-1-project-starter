@@ -128,14 +128,23 @@ const products = [  {
   /* Create a function called emptyCart that empties the products from the cart */
   function emptyCart() {
     cart = [];
+    products.quantity = 0;
   }
   /* Create a function named pay that takes in an amount as an argument
     - pay will return a negative number if there is a remaining balance
     - pay will return a positive number if money should be returned to customer
   */
+ /* Declare a variable named totalPaid to keep track of the total cash paid */
+  let totalPaid = 0;
+  
   function pay(cash) {
-    let change = (cash - cartTotal()).toFixed(2);
-    return Number(change);
+    totalPaid += cash;
+    let change = totalPaid - cartTotal();
+    if (change >= 0) {
+      totalPaid = 0;
+      emptyCart();
+    } 
+    return Number(change.toFixed(2));
   }
   
   
